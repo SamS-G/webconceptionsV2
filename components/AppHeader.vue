@@ -4,7 +4,7 @@ import Button from "~/components/base/button.vue";
 
 <template>
   <section class="d-flex align-center hero">
-    <div class="temp">
+    <div class="wrapper">
       <div class="hero-part-left mx-auto">
         <div class="brand-container">
           <div class="dash"/>
@@ -22,8 +22,9 @@ import Button from "~/components/base/button.vue";
           </h3>
           <p class="pt-3">Je vous accompagne de A à Z !</p>
         </div>
-
-        <Button/>
+        <div class="mt-3">
+          <Button/>
+        </div>
       </div>
       <div class="hero-part-right">
         <div class="p-4">
@@ -32,7 +33,7 @@ import Button from "~/components/base/button.vue";
             <code>
     class FreelanceDev {
       constructor() {
-       this.name = "Jean Dupont";
+       this.name = "Samuel Guichardon";
         this.skills = [
          "Web Development",
          "SEO Optimization",
@@ -60,16 +61,18 @@ import Button from "~/components/base/button.vue";
 
 .hero-part-right, .hero-part-left {
   display: grid;
-align-items: center;
+  align-items: center;
 }
+
 .hero-part-left {
   grid-template-rows: 2rem 8rem 10rem 5rem;
 }
+
 .hero-part-right {
   grid-template-rows: 1fr;
 }
 
-.temp {
+.wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr; /* Deux colonnes de largeur égale */
   grid-template-rows: 1fr; /* Une ligne */
@@ -106,16 +109,17 @@ h2, h3, p {
 
 .hero-part-right div:nth-child(1) {
   border: 1px solid rgb(255 255 255 / 0.2);
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
 }
 
 .hero-part-right div:nth-child(2) {
-  border-radius: 20px;
+  border-radius: 10px;
 }
+
 pre {
   color: #41DE80;
-margin: 0;
+  margin: 0;
 }
 </style>

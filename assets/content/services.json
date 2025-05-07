@@ -1,0 +1,137 @@
+{
+  "navPills": [
+    {
+      "navItem": {
+        "id": "web-services",
+        "title": "Services Web",
+        "active": true
+      },
+      "tabContent": [
+        {
+          "img": "icons/computer-programming.png",
+          "h3": "Développement Web",
+          "h4": "Creation de sites sur-mesure pour entreprises, e-commerce, reservation en ligne.",
+          "p": "",
+          "ul": [
+            "Sites vitrines pour entreprises, associations",
+            "Sites avec paiement et reservation",
+            "E-commerce pour augmenter les ventes",
+            "Sites specialises (restaurant, avocat, etc.)"
+          ]
+        },
+        {
+          "img": "icons/graph-report.png",
+          "h3": "Optimisation & Performance",
+          "h4": "Strategies SEO et optimisation pour booster votre visibilité et vos ventes.",
+          "p": "",
+          "ul":[
+            "Audit SEO et référencement naturel",
+            "Strategies pour trouver des clients en ligne",
+            "Optimisation des ventes",
+            "Amelioration des outils existants"
+          ]
+        },
+        {
+          "img": "icons/proces.png",
+          "h3": "Automatisation & Integration",
+          "h4": "Solutions digitales sur-mesure pour simplifier vos processus métier.",
+          "p": "",
+          "ul":[
+            "Integration d'API et CRM",
+            "Automatisation des taches",
+            "Solutions pour entreprises et freelances",
+            "Outils de gestion personnalises"
+          ]
+        }
+      ]
+    },
+    {
+      "navItem": {
+        "id": "digital",
+        "title": "Digitalisation"
+      },
+      "tabContent": [
+        {
+          "img": "icons/rocket.png",
+          "h3": "Référencement SEO",
+          "h4": "Améliorer votre visibilité en ligne et attirer des clients.",
+          "p": "",
+          "ul": [
+            "Apparaitre dans les premiers résultats Google",
+            "Référencement local",
+            "Optimisation e-commerce",
+            "Strategies de trafic cible"
+          ]
+        },
+        {
+          "img": "icons/job.png",
+          "h3": "Actes Metiers Digitalises",
+          "h4": "Transformation digitale de vos processus professionnels.",
+          "p": "",
+          "ul": [
+            "Gestion de plannings",
+            "Facturation automatisée",
+            "Portails clients",
+            "Suivi de production"
+          ]
+        },
+        {
+          "img": "icons/handshake.png",
+          "h3": "Avantages Freelance",
+          "h4": "Pourquoi choisir un développeur freelance ?",
+          "p": "",
+          "ul": [
+            "Accompagnement sur-mesure",
+            "Relation directe",
+            "Flexibilité maximale",
+            "Couts optimises"
+          ]
+        }
+      ]
+    },
+    {
+      "navItem": {
+        "id": "techno",
+        "title": "Technologies"
+      },
+      "tabContent": [
+        {
+          "img": "icons/tools.png",
+          "h3": "Laravel",
+          "h4": "Framework PHP pour des applications robustes et sécurisées.",
+          "p": "",
+          "ul": [
+            "Haute sécurité",
+            "Performance rapide",
+            "Grande flexibilité",
+            "Ideal pour sites et plateformes"
+          ]
+        },
+        {
+          "img": "icons/flash.png",
+          "h3": "Vue.js",
+          "h4": "Framework JavaScript pour des interfaces utilisateur dynamiques",
+          "p": "",
+          "ul": [
+            "UX fluide",
+            "Réactivité",
+            "Maintenance simplifiée",
+            "Applications web modernes"
+          ]
+        },
+        {
+          "img": "icons/web.png",
+          "h3": "Technologies Modernes",
+          "h4": "Solutions techniques a la pointe de l\\'innovation.",
+          "p": "",
+          "ul": [
+            "Développement full-stack",
+            "Applications responsives (mobile)",
+            "Integrations avancées",
+            "Design moderne"
+          ]
+        }
+      ]
+    }
+  ]
+}

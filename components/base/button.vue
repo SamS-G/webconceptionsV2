@@ -6,7 +6,7 @@
   <div class="arrow-container">
     <div class="button-container">
       <a class="btn ">
-        🚀 Discutons de Votre Projet
+        <img src="/icons/handshake.png" alt="handshake"> Discutons de Votre Projet
       </a>
       <div class="rotating-rect" />
     </div>
@@ -26,12 +26,12 @@
 
 .btn {
   display: inline-block;
-  padding: 15px 20px;
+  padding: 10px 15px;
   background-color: #2563EB;
   color: white;
   font-size: 16px;
   border: none;
-  border-radius: 30px;
+  border-radius: 10px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -43,7 +43,7 @@
   width: 260px;
   height: 60px;
   border: 3px solid #2563EB;
-  border-radius: 30px;
+  border-radius: 10px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
