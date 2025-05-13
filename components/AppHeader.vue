@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import Button from "~/components/base/button.vue";
+import VButton from "~/components/base/VButton.vue";
 </script>
 
 <template>
@@ -23,7 +23,7 @@ import Button from "~/components/base/button.vue";
           <p class="pt-3">Je vous accompagne de A à Z !</p>
         </div>
         <div class="mt-3">
-          <Button/>
+          <VButton/>
         </div>
       </div>
       <div class="hero-part-right">
@@ -57,6 +57,7 @@ import Button from "~/components/base/button.vue";
 .hero {
   align-items: center; /* Centre verticalement la div */
   height: 100vh;
+  background: linear-gradient(135deg, rgba(22, 43, 102, 1) 0%, rgba(63, 22, 100, 1) 100%);
 }
 
 .hero-part-right, .hero-part-left {

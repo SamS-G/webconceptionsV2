@@ -1,0 +1,69 @@
+{
+  "select": {
+    "id": "reason",
+    "name": "reason",
+    "type": "select",
+    "placeholder": "Sélectionnez un motif",
+    "label": "Objet *",
+    "options": [
+      {
+        "label": "Commerce",
+        "value": "Commerce"
+      },
+      {
+        "label": "Après-vente",
+        "value": "Après-vente"
+      },
+      {
+        "label": "Autre",
+        "value": "Autre"
+      }
+    ]
+  },
+  "inputs": [
+    {
+      "id": "sujet",
+      "name": "subject",
+      "label": "Sujet *",
+      "placeholder": "Sujet de votre message",
+      "type": "text"
+    },
+    {
+      "id": "nom",
+      "name": "name",
+      "label": "Nom et prénom *",
+      "placeholder": "Vos nom et prénom",
+      "type": "text"
+    },
+    {
+      "id": "email",
+      "name": "email",
+      "label": "Email *",
+      "placeholder": "votre@email.com",
+      "type": "email"
+    },
+    {
+      "id": "message",
+      "name": "message",
+      "placeholder": "Description de votre projet ou besoin...",
+      "rows": "10",
+      "label": "Votre message *",
+      "type": "textarea"
+    },
+    {
+      "id": "terms",
+      "name": "terms",
+      "type": "checkbox",
+      "checkboxLabel": "J'accepte les conditions d'utilisations de ce formulaire de contact",
+      "options": {
+        "excludeFromData": true
+      }
+    },
+    {
+      "id": "submit-button",
+      "name": "Envoyer",
+      "type": "submit",
+      "value": "Envoyer ma demande"
+    }
+  ]
+}

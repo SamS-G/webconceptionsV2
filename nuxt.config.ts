@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   compatibilityDate: '2024-11-01',
   devtools: { enabled: true },
   dev: true,
+  debug: true,
   css: ['~/assets/css/base.css'],
   runtimeConfig: {
     public: {

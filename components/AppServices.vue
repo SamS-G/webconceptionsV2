@@ -1,11 +1,11 @@
 <script lang="ts" setup>
-import services from '@/assets/content/services.json'
-import NavPills from "~/components/base/navPills.vue";
+import services from '~/assets/content/services.json'
+import VNavPills from "~/components/base/VNavPills.vue";
 </script>
 
 <template>
   <section id="services">
-    <NavPills
+    <VNavPills
         :services="services"/>
   </section>
 </template>

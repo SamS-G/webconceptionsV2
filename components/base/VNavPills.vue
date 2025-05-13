@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import type {NavPills} from "~/types/nav-pills";
-import Card from "~/components/base/card.vue"
+import VCard from "~/components/base/VCard.vue"
 
 const props = defineProps<{ services: NavPills }>();
 const activeTab = ref<string>('')
@@ -45,7 +45,7 @@ onMounted(() => {
         role="tabpanel"
     >
       <div class="container grid-container">
-        <Card  :content="service.tabContent"/>
+        <VCard  :content="service.tabContent"/>
       </div>
 
     </div>
