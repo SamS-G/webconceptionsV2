@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import type {ContactForm} from '~/interfaces/contact-form.d.ts';
 import data from "~/assets/content/contact.json"
+import {ErrorMessage} from "vee-validate"
 import VSelect from "~/components/base/VSelect.vue";
 import VForm from "~/components/base/VForm.vue";
 import VInput from "~/components/base/VInput.vue";
@@ -10,6 +11,7 @@ import ContactInfo from "~/components/molecules/ContactInfo.vue";
 
 const fieldsData = ref<ContactForm>(data);
 const modalData = ref<ModalStatus>({visible: false})
+
 const statusModalState = (val: ModalStatus) => {
   modalData.value = val
   setTimeout(clearModalStatus, 5000) // Remove after 5s
@@ -44,7 +46,7 @@ const clearModalStatus = () => {
                 :key="i"
                 :input="input"
                 :validate="true"
-                :errors="errors"
+                :errors="ErrorMessage"
             />
           </template>
           <!-- Modal -->

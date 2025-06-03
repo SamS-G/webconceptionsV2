@@ -4,21 +4,27 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev:debug": "node --inspect-brk node_modules/nuxt/bin/nuxt.mjs dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
     "@vee-validate/nuxt": "^4.14.6",
+    "awilix": "^12.0.5",
+    "handlebars": "^4.7.8",
+    "nodemailer": "^7.0.3",
     "nuxt": "^3.16.1",
+    "pino": "^9.5.0",
+    "pino-pretty": "^13.0.0",
+    "usebootstrap": "^3.5.101",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0",
-    "usebootstrap": "^3.5.101",
     "yup": "^1.4.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {
-    "@nuxt/eslint": "^0.7.5"
+    "@nuxt/eslint": "^0.7.5",
+    "@types/nodemailer": "^6.4.17"
   }
 }

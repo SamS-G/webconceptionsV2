@@ -22,8 +22,8 @@
           </div>
           <div>
             <h4 class="fs-5 fw-medium">Email</h4>
-            <p class="contact-way-value">contact@jean-dupont.fr</p>
-            <a href="mailto:contact@jean-dupont.fr" class="link-primary">Envoyer un email</a>
+            <p class="contact-way-value">samuel.guichardon@webconceptions.fr</p>
+            <a href="mailto:samuel.guichardon@webconceptions.fr" class="link-primary">Envoyer un email</a>
           </div>
         </div>
 
@@ -40,8 +40,8 @@
           </div>
           <div>
             <h4 class="fs-5 fw-medium">WhatsApp</h4>
-            <p class="contact-way-value">+33 6 12 34 56 78</p>
-            <a href="https://wa.me/33612345678" class="link-success">Discuter sur WhatsApp</a>
+            <p class="contact-way-value">06 82 36 76 46</p>
+            <a href="https://wa.me/33682367646" class="link-success">Discuter sur WhatsApp</a>
           </div>
         </div>
 
@@ -58,8 +58,8 @@
           </div>
           <div>
             <h4 class="fs-5 fw-medium">Téléphone</h4>
-            <p class="contact-way-value">+33 6 12 34 56 78</p>
-            <a href="tel:+33612345678" class="text-decoration-none" style="color: #a64eff;">Appeler maintenant</a>
+            <p class="contact-way-value">06 82 36 76 46</p>
+            <a href="tel:+33682367646" class="text-decoration-none" style="color: #a64eff;">Appeler maintenant</a>
           </div>
         </div>
 
@@ -77,7 +77,7 @@
           <div>
             <h4 class="fs-5 fw-medium">Prendre rendez-vous</h4>
             <p class="contact-way-value">Réservez un créneau en ligne</p>
-            <a href="#" class="text-orange">Voir les disponibilités</a>
+            <a href="https://calendly.com/webconceptions" class="text-orange">Voir les disponibilités</a>
           </div>
         </div>
       </div>

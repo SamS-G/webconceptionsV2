@@ -156,7 +156,8 @@ const displayValue = computed(() => {
   transition: background-color 0.2s, color 0.2s;
 }
 .option-item:hover {
-  background-color: #e0e0e0;
+  background-color: darkviolet;
+  color: white;
 }
 .option-item.selected {
   background-color: #007bff;

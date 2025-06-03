@@ -11,5 +11,12 @@ export default defineNuxtConfig({
       debug: false,
     },
     components: true,
+    private: {
+      formSendEmail: process.env.SEND_EMAIL_TO,
+      mailLogin: process.env.MAIL_LOGIN,
+      templates: process.env.TEMPLATES,
+      baseDataModel: process.env.BASE_DATA_MODEL,
+      log: process.env.LOG,
+    },
   }
 })

@@ -8,7 +8,7 @@ const statusModal = ref<ModalStatus>()
 
 const emit = defineEmits(['update-status-modal'])
 
-const SEND_EMAIL_URL = '/api/send-email'
+const SEND_EMAIL_URL = '/api/contact'
 
 const { handleSubmit, resetForm } = useForm({
   validationSchema: form,
@@ -56,7 +56,8 @@ const onSubmit = handleSubmit(async (values) => {
     }
     emit('update-status-modal', statusModal.value)
   }
-  catch (error) {
+  catch (err) {
+    const error = err as Error
     statusModal.value = {
       visible: true,
       status: 'error',

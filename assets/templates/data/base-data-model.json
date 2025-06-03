@@ -1,0 +1,15 @@
+{
+  "header": {
+    "img_url": "http://localhost:3000/pictures/logo.svg",
+    "img_alt": "Web_conceptions"
+  },
+  "email": "samuel.guichardon@webconceptions.fr",
+  "address": "01150 Sainte-Julie",
+  "phone": "06.82.36.76.46",
+  "company": {
+    "name": "Web Conceptions"
+  },
+  "footer": {
+    "text": "This message was sent automatically from the website webconceptions.fr"
+  }
+}
