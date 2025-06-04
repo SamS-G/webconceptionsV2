@@ -22,7 +22,9 @@ export class EmailService implements IEmailService {
     private readonly templateService: ITemplateService,
     private readonly emailConfigService: IEmailConfigService,
     private readonly config: RuntimeConfig
-  ) {}
+  ) {
+    this.config = useRuntimeConfig()
+  }
 
   /**
    * Create email template
@@ -56,7 +58,7 @@ export class EmailService implements IEmailService {
     try {
       await transport.sendMail({
         from: 'WebConceptions',
-        to: email.email,
+        to: this.config.private.formSendEmail,
         subject: `Nouveau message depuis le formulaire du site WebConceptions : ${email.subject}`,
         text: email.text ?? "",
         html: email.message

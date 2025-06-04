@@ -2,9 +2,9 @@
 export default defineNuxtConfig({
   modules: ['usebootstrap', '@nuxt/eslint'],
   compatibilityDate: '2024-11-01',
-  devtools: { enabled: true },
-  dev: true,
-  debug: true,
+  devtools: { enabled: false },
+  dev: false,
+  debug: false,
   css: ['~/assets/css/base.css'],
   runtimeConfig: {
     public: {
