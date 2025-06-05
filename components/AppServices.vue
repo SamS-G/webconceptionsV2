@@ -15,4 +15,9 @@ import VNavPills from "~/components/base/VNavPills.vue";
   padding: 4rem;
   background-color: black;
 }
+@media (max-width: 1024px) {
+  #services {
+    padding: 5rem 1rem;
+  }
+}
 </style>

@@ -5,10 +5,8 @@ import AppFooter from "~/components/AppFooter.vue";
 </script>
 
 <template>
-  <div class="app">
     <AppHeader/>
     <AppServices/>
     <AppContact/>
     <AppFooter/>
-  </div>
 </template>

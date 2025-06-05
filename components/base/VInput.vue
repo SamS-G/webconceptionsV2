@@ -90,7 +90,7 @@ const validationListeners = {
           :class="{
           'form-control': input.type !== 'checkbox' && 'submit',
           'form-check-input': input.type === 'checkbox',
-          'btn btn-primary bg-primary btn-lg': input.type === 'submit',
+          'btn btn-primary bg-primary btn-xl-lg btn-sm-sm': input.type === 'submit',
           'error': errorMessage,
 
            isValidInput: meta.valid && props.input.type !== 'submit'
@@ -232,5 +232,13 @@ textarea::placeholder {
 
 .form-control {
   background-color: #292C35;
+}
+@media (max-width: 1024px) {
+  .checkbox-label {
+    display: inline;
+  }
+  .submit svg {
+    right: 13%;
+  }
 }
 </style>

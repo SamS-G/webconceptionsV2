@@ -150,6 +150,7 @@ withDefaults(
 
 .success, .error {
   display: flex;
+  min-width: 0;
 }
 
 .icon i {

@@ -9,7 +9,7 @@
 
       <div class="d-flex flex-column gap-4">
         <!-- Email -->
-        <div class="d-flex align-items-start gap-3">
+        <div class=" d-flex align-items-start gap-3">
           <div class="icon-wrapper bg-primary bg-opacity-25 p-3 rounded-3">
             <svg
                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" color="#63b3ed"
@@ -20,9 +20,9 @@
                   d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"/>
             </svg>
           </div>
-          <div>
+          <div class="email">
             <h4 class="fs-5 fw-medium">Email</h4>
-            <p class="contact-way-value">samuel.guichardon@webconceptions.fr</p>
+            <p class="contact-way-value email">samuel.guichardon@webconceptions.fr</p>
             <a href="mailto:samuel.guichardon@webconceptions.fr" class="link-primary">Envoyer un email</a>
           </div>
         </div>
@@ -135,5 +135,18 @@ h3, h4 {
   height: 24px;
   color: inherit;
 }
-
+@media (max-width: 1024px) {
+  p {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+  .email{
+   overflow: auto;
+  }
+  .contact-info-wrapper {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+}
 </style>

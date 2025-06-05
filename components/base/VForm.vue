@@ -106,6 +106,7 @@ form {
   padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
+  min-width: 0;
   flex-direction: column;
 }
 </style>

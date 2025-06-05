@@ -9,7 +9,7 @@
         <h5>Guichardon Samuel</h5>
         <p><em>Développeur Web Freelance</em></p>
       </div>
-      <div class="col-1 mx-auto d-flex justify-content-around align-items-center">
+      <div class="social-links col-xl-1 col-sm-2 mx-auto d-flex justify-content-around align-items-center">
         <a href="https://www.linkedin.com/in/samuel-guichardon/">
           <svg
               xmlns="http://www.w3.org/2000/svg" width="24" height="24"
@@ -72,5 +72,13 @@ div:nth-child(2n) a svg {
 
 div:nth-child(2n) a:hover svg {
   transform: scale(1.2);
+}
+@media (max-width: 1024px) {
+  #footer {
+    margin-bottom: 1rem;
+  }
+.social-links {
+    width: 50%;
+  }
 }
 </style>

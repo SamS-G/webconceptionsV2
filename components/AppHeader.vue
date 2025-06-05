@@ -15,7 +15,7 @@ import VButton from "~/components/base/VButton.vue";
         <h1 class="text-white fw-bold mb-0">Développeur Web <br>
           <span>Freelance à Lyon France</span><br>
         </h1>
-        <div class="lh-xl">
+        <div class="intro lh-xl">
           <h2>Création de Sites et Applications Sur-Mesure, Rapides et Sécurisés.</h2>
           <h3>Boostez votre business avec un site Web performant et des outils <br> métier digitaux
             sur-mesure.
@@ -123,4 +123,63 @@ pre {
   color: #41DE80;
   margin: 0;
 }
+
+/* Responsive layout */
+@media (max-width: 1024px) {
+  .wrapper {
+    grid-template-columns: 1fr; /* 1 seule colonne */
+    grid-template-rows: auto auto;
+    width: 90%;
+    gap: 2rem;
+  }
+
+  .hero-part-left,
+  .hero-part-right {
+    grid-template-rows: none;
+    display: block; /* plus de grid ici */
+    text-align: center;
+  }
+
+  .brand-container {
+    grid-template-columns: auto;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+
+  .intro {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .brand-container span {
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+  }
+
+  .dash {
+    margin: 0 auto 0.5rem auto;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  h2,
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  pre {
+    font-size: 0.9rem;
+    white-space: pre-wrap;
+    text-align: left;
+  }
+
+  .hero {
+    height: auto;
+    padding: 3rem 0;
+  }
+}
+
 </style>

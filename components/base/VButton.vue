@@ -39,6 +39,8 @@
 }
 
 .rotating-rect {
+  transform-origin: center;
+  will-change: transform;
   position: absolute;
   width: 260px;
   height: 60px;
@@ -88,6 +90,17 @@
   100% {
     transform: translate(-50%, -50%) rotate(0deg);
     width: 260px;
+  }
+}
+@media (max-width: 1024px) {
+  .arrow-container {
+    justify-content: center;
+  }
+
+  .arrow-container .button-container .btn {
+    font-size: 1rem;
+    padding: 0.30rem 1rem;
+    margin-top: 1rem;
   }
 }
 </style>

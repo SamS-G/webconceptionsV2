@@ -110,6 +110,7 @@ const displayValue = computed(() => {
   border-color: #3E414A;
   cursor: pointer;
   display: flex;
+  min-width: 0;
   justify-content: space-between;
   align-items: center;
   background-color: #292C35;

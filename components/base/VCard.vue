@@ -27,6 +27,7 @@ defineProps<{ content: TabContentItem[] }>();
 
 .grid-item {
   display: flex;
+  min-width: 0;
   flex-direction: column;
   border-radius: 8px;
 }

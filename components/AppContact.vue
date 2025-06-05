@@ -89,4 +89,9 @@ const clearModalStatus = () => {
   color: #D1D5DB;
   font-size: 1.2rem;
 }
+@media (max-width: 1024px) {
+  .section-title {
+    padding-top: 1rem;
+  }
+}
 </style>
