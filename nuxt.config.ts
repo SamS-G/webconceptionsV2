@@ -6,6 +6,9 @@ export default defineNuxtConfig({
   dev: false,
   debug: false,
   css: ['~/assets/css/base.css'],
+  nitro: {
+    preset: 'node'
+  },
   runtimeConfig: {
     public: {
       debug: false,
